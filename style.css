@@ -153,6 +153,7 @@ header {
   border: 1px solid rgba(128, 128, 128, 0.527);
   border-radius: 16px;
   padding: 48px 24px;
+  margin-bottom: 30px;
 }
 .yunus-wraper{
   position: relative;
@@ -169,4 +170,59 @@ header {
 }
 .yunus-wraper h1{
   margin: 24px 0px;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  margin: 24px 0px;
+  background-color: white;
+}
+table, tr, td{
+  border: 1px solid gray;
+}
+th, td{
+  padding: 24px;
+}
+table th {
+  background-color: #C6E4D6;
+}
+select{
+  background-color: #C6E4D6;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+.opinion-section{
+  margin: 24px 0px;
+}
+.hrr {
+  width: 30px;
+  border: none;          /* Removes the default border */
+  height: 2px;           /* Sets the thickness */
+  background-color: rgba(255, 0, 0, 0.541); /* Sets the color */
+  margin: 10px auto;
+}
+.news1{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 30px 0px;
+}
+.news2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 30px 0px;
+}
+.news-image-holder img{
+  border-radius: 12px;
+}
+.news-wrapper h1{
+  font-size: 40px;
+  margin-bottom: 24px;
 }
