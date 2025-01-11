@@ -260,6 +260,9 @@ select{
   font-size: 40px;
   margin-bottom: 24px;
 }
+.right-section-content p{
+  margin: 10px 0px;
+}
 .donate-section h1{
   font-size: 40px;
   font-weight: bold;
